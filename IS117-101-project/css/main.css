@@ -1,0 +1,229 @@
+/*DEVELOPER: Raheem Mahmood, IS117-101, Fall 2022*/
+.d-block w-100{
+    width: 90%;
+    height: 60%;
+    padding-left: 5em;
+    padding-bottom: 1em;
+
+}
+.d-block1{
+    width: 90%;
+    height: 50%;
+    padding-left: 5em;
+    padding-bottom: 1em;
+}
+.card1{
+    float: left;
+    margin-left: 8em;
+    margin-right: 5em;
+    width: 10em;
+    padding-bottom: 2em;
+    border-top: solid black 3px;
+    border-bottom: solid black 3px;
+}
+.card2{
+    float: left;
+    padding-bottom: 2em;
+    border-top: solid black 3px;
+    border-bottom: solid black 3px;
+}
+.card3{
+    float: left;
+    margin-left: 5em;
+    padding-bottom: 2em;
+    border-top: solid black 3px;
+    border-bottom: solid black 3px;
+
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: .75rem;
+}
+
+#header-name{
+    padding-top: 1em;
+
+}
+#contact{
+    margin-left: 35%;
+}
+.form-group{
+    width: 50%;
+
+}
+#submit{
+    margin-left: 20%;
+}
+#picture{
+    float: right;
+    width: 25%;
+    height: 15em;
+    margin-right: 10em;
+    margin-left: 2.5em;
+    border: 1px solid black;
+}
+#skills-have{
+    width: 30em;
+}
+article{
+    margin-left: 10em;
+    margin-right: 10em;
+    text-align: justify;
+}
+#title-name{
+    text-align: center;
+    padding-bottom: .5em;
+    padding-top: .5em;
+}
+#about{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 95%;
+    width: 99%;
+    max-width: 1500px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: aliceblue;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    color: orangered;
+    font-weight: bold;
+}
+#project-name{
+    margin-left: 1em;
+}
+#resume-header{
+    margin-left: 1em;
+}
+#Resume-topic{
+    margin-left: 1.5em;
+}
+#resume{
+    border-bottom: solid black .5em;
+}
+#project-role{
+    margin-left: 2em;
+}
+#website-of-restaurant{
+    margin-left: 2em;
+    width: 47%;
+    height: auto;
+}
+#package-form-done{
+    margin-left: 25em;
+    width: 50%;
+    height: auto;
+
+}
+#package{
+    border: solid black .5em;
+    padding-bottom: 1em;
+}
+#website{
+    border: solid black .5em;
+}
+#homepage-title{
+    text-align: center;
+    color: purple;
+    font-size: 200%;
+
+}
+#carouselExampleIndicators{
+    align-content: center;
+}
+/* mobile landscape layout (480px to 767px) */
+@media only screen and (max-width: 767px) {
+    #picture {
+        float: none;
+    }
+    #package-form-done{
+        float: none;
+        width: 90%;
+        margin-left: 1em;
+    }
+    #website-of-restaurant{
+        float: none;
+        width: 90%;
+    }
+    .card1{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card2{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card3{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    #homepage-title{
+        padding-left: 2.5em;
+        font-size: 200%;
+        color: purple;
+    }
+    #box{
+        width: 100%;
+        padding-bottom: 1em;
+    }
+}
+/* mobile portrait layout (479px or less) */
+@media only screen and (max-width: 479px) {
+        #picture{
+            float: none;
+            font-size: 90%;
+            min-width: 100%
+        }
+        #package-form-done{
+            float: none;
+            width: 90%;
+            margin-left: 1em;
+        }
+        #website-of-restaurant{
+            float: none;
+        }
+        #homepage-title{
+            padding-left: 1em;
+            font-size: 200%;
+            color: purple;
+        }
+        .card1{
+            float: none;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .card2{
+            float: none;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .card3{
+            float: none;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+        #box{
+            width: 150%;
+            height: auto;
+            float: none;
+
+        }
+}
